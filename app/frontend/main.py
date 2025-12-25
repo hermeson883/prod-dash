@@ -1,6 +1,6 @@
 from flask import Flask
-from router.dashboard import dash_bp
-from router.login import login_router
+from app.router.dashboard import dash_bp
+from app.router.login import login_router
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
